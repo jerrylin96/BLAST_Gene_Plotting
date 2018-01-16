@@ -1,1 +1,3 @@
 # BLAST_Gene_Plotting
+
+This versatile analysis method aims to identify unique, annotated genes in species clusters according to the user’s application. Using an all-by-all BLAST strategy, each gene from an organism of interest is compared to an “in” group of organisms with a shared trait under investigation and an “out” group of organisms that are closely related but do not contain the desired trait. By plotting the best bit scores and Z-values from each pairwise comparison between the organism of interest and either the “in” or “out” group, genes that are conserved amongst the “in” group cluster and the organism of interest can be visually identified and efficiently isolated for investigation.
